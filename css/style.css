@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    background-image: url('backlol.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    
+    font-family: Arial, sans-serif;
+    color: rgb(0, 160, 40); 
+    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+
+.profile-container {
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.65); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%; 
+    width: 500px;
+}
+
+
+.profile-photo {
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 5px solid #4CAF50; 
+    margin-bottom: 20px;
+}
+
+
+.presentation-text h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #a71c03; }
+
+.presentation-text p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
